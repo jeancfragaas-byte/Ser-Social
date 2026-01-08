@@ -67,7 +67,7 @@ const App: React.FC = () => {
         </section>
 
         <div className="pt-6">
-          <a href="https://www.cfess.org.br/arquivos/CEP_CFESS-SITE.pdf" target="_blank" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark hover:text-white transition-all">
+          <a href="https://www.cfess.org.br/arquivos/CEP_CFESS-SITE.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark hover:text-white transition-all">
             <Download size={20} /> Baixar Código Completo (PDF)
           </a>
         </div>
@@ -91,7 +91,7 @@ const App: React.FC = () => {
           <h2 className="font-bold text-brand-deep mb-3 flex items-center gap-2"><Clock size={20}/> Jornada de Trabalho</h2>
           <p className="text-sm">Conforme a Lei 12.317/2010, a jornada é de 30 horas semanais sem redução salarial.</p>
         </section>
-        <a href="https://www.planalto.gov.br/ccivil_03/leis/l8662.htm" target="_blank" className="block text-center py-4 bg-slate-100 rounded-2xl font-bold text-slate-700 hover:bg-slate-200 transition">Ver no Planalto</a>
+        <a href="https://www.planalto.gov.br/ccivil_03/leis/l8662.htm" target="_blank" rel="noopener noreferrer" className="block text-center py-4 bg-slate-100 rounded-2xl font-bold text-slate-700 hover:bg-slate-200 transition">Ver no Planalto</a>
       </div>
     </div>
   );
@@ -148,7 +148,7 @@ const App: React.FC = () => {
           <Banknote size={150} className="absolute -right-20 -bottom-20 opacity-10 rotate-12" />
         </div>
         <div className="pt-6">
-          <a href="https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm" target="_blank" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark transition-all"><ExternalLink size={20} /> Acessar Lei 8.213/91</a>
+          <a href="https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark transition-all"><ExternalLink size={20} /> Acessar Lei 8.213/91</a>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@ const App: React.FC = () => {
           <Network size={150} className="absolute -right-20 -bottom-20 opacity-10 rotate-12" />
         </div>
         <div className="pt-6">
-          <a href="https://www.planalto.gov.br/ccivil_03/leis/l8742.htm" target="_blank" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark transition-all"><ExternalLink size={20} /> Acessar Lei 8.742/93</a>
+          <a href="https://www.planalto.gov.br/ccivil_03/leis/l8742.htm" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark transition-all"><ExternalLink size={20} /> Acessar Lei 8.742/93</a>
         </div>
       </div>
     </div>
@@ -211,7 +211,7 @@ const App: React.FC = () => {
           </ul>
         </section>
         <div className="pt-6">
-          <a href="https://www.planalto.gov.br/ccivil_03/leis/l8080.htm" target="_blank" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark transition-all"><ExternalLink size={20} /> Acessar Lei 8.080/90</a>
+          <a href="https://www.planalto.gov.br/ccivil_03/leis/l8080.htm" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 w-full py-4 bg-brand text-slate-900 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-dark transition-all"><ExternalLink size={20} /> Acessar Lei 8.080/90</a>
         </div>
       </div>
     </div>
